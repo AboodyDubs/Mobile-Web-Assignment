@@ -1,0 +1,189 @@
+body{
+	background-image : url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR_QqyOnX3Qd0UlC2yXdHZbaHWRs0BAfc_dSmU3J_F44xlGpb4Ow");
+	margin: 0;
+}
+
+#menuTab {
+	position: fixed;
+	display: inline;
+	width: 100%;
+	top: 0;
+	left: 0;
+	bottom: 73%;
+	
+}
+
+#titleimg {
+	float: left;
+	margin: 10px;
+	border-radius: 5px;
+	width: 250px;
+}
+
+#heading1 {
+	position: fixed;
+    right: 15%;
+	top: 5%;
+	background-color: red;
+	width: 600px;
+	font-size: 40px;
+	font-weight: bold;
+	color: Yellow;
+}
+
+#menuTab a {
+	background-color: yellow;
+}
+#intro{
+	color:white;
+}
+#advantage{
+	color:white;
+}
+#disadvantage{
+	color:white;
+}
+#uses{
+	color:white;
+}
+
+#imagetitle {
+	float: right;
+	margin: 10px;
+	border-radius: 5px;
+	width: 200px;
+}
+
+
+
+
+#a1 {
+	position: fixed;
+	width: 100px;
+	height: 40px;
+	top: 15%;
+	right: 55%;
+	text-decoration: none;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 5px;
+	border: 5px solid black;
+}
+
+#a2 {
+	position: fixed;
+	width: 100px;
+	height: 40px;
+	top: 15%;
+	right: 45%;
+	text-decoration: none;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 5px;
+	border: 5px solid black;
+}
+
+#a3 {
+	position: fixed;
+	width: 100px;
+	height: 40px;
+	top: 15%;
+	right: 35%;
+	text-decoration: none;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 5px;
+	border: 5px solid black;
+}
+
+#a4 {
+	position: fixed;
+	width: 100px;
+	height: 40px;
+	top: 15%;
+	right: 25%;
+	text-decoration: none;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 5px;
+	border: 5px solid black;
+}
+
+#a5 {
+	position: fixed;
+	width: 100px;
+	height: 40px;
+	top: 15%;
+	right: 15%;
+	text-decoration: none;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 5px;
+	border: 5px solid black;
+}
+
+#a6 {
+	position: fixed;
+	width: 100px;
+	height: 40px;
+	top: 15%;
+	right: 5%;
+	text-decoration: none;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 5px;
+	border: 5px solid black;
+}
+
+#menuTab a:hover {
+	color: black;
+	background-color: cyan;
+}
+
+#scrollable{
+	background-color:white;
+	color: pink;
+	position: fixed;
+	top: 27%;
+	right: 0;
+	width: 78%;
+	height: 66%;
+	overflow: auto;
+	font-size: 20px;
+	padding: 10px;
+}
+
+#sub {
+	background-color:indigo;
+	position: fixed;
+	left:0;
+	top: 27%;
+	list-style-type: none;
+	margin: 0;
+	font-size: 20px;
+	padding: 0 0 30px 0;
+	width: 22%;
+}
+
+li a {
+	color: pink;
+	display: block;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+li a:hover {
+	background-color: cyan;
+	color: brown;
+}
+
+#copyrightTab{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	top: 96%;
+	width: 100%;
+	background-color: green;
+	font-size: 20px;
+	text-align: center;
+}
