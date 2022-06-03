@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<head> 
+<title>
+jquery
+</title>
+<script type="text/javascript" src="jquery.js">
+</script>
+<link = href = "jquery.css" rel = "stylesheet" type = "text/css">
+
+</head> 
+
+
+<body>
+
+	<div id="menuTab">
+		<img id="titleimg" src = "eye.PNG">
+		<span id="heading1">Mobile Application Development</span>
+		<a id="a1" href="index.html">Home</a>
+		<a id="a2" href="javascript.html">Jscript</a>
+		<a id="a3" href="jquery.html">Jquery</a>
+		<a id="a4" href="">Ajax</a>
+		<a id="a5" href="Json.html">JSON</a>
+		<a id="a6" href="XML.html">XML</a>
+		
+	</div>
+	<ul id="sub">
+		<li><a href="#whatisjquery">What is jQuery</a></li>
+		<li><a href="#featuresofjquery">Features of jQuery</a></li>
+		<li><a href="#examples">Examples of jQuery</a></li>
+		<li><a href="#yourturn">Practice</a></li>
+		
+	</ul>
+	
+	
+	<div id="scrollable">
+	
+
+	<img id="imagetitle" src = "jquerytitle.PNG">
+	<h3 id="whatisjquery" style="color:black">What is jQuery?</h3>
+		<p id="firstpara" style="color:black">jQuery is a collection of pre-written Javascript. This language  
+	is intended to ease the use <br> of Javascript by simplifying multiple statements that 
+	are usually entered in Javascript and combines them into a single statement.</p>
+	
+	
+	<h3 id="featuresofjquery" style="color:black">Features of jQuery:</h3>
+	<ol>
+		<li style="color:black">Lightweight: it is a light javascript library that is roughly 20KB in size</li><br>
+		<li style="color:black">AJAX: jQuery contains a collection of AJAX commands for simplicity</li><br>
+		<li style="color:black">CSS manipulation: Jquery can interpret CSS and make changes to certain properties
+		<p style="color:black">Example: changing the padding size (Figure 1) </p>
+		<div id="figure 1">
+		<img id="firstexample" src = "jqueryexample1.PNG">
+		<img id="firstexamplea" src = "jqueryexample1a.PNG"> 
+		<img id="firstexampleb" src = "jqueryexample1b.PNG"> 
+		<p id= "figure1explanation" style="color:black">Figure 1: The jQuery understood the original padding size
+		(which was 10px) and created a function that increases the padding when clicked</p>
+		</div>
+		<li style="color:black">DOM manipulation: jQuery uses CSS select methods like Id naming to
+		adjust DOM nodes. </li><br>
+		<li style="color:black">Cross-browser: it is applicable on multiple versions of browser</li><br>
+		<li style="color:black">Deals with creating animations and special effecs for websites </li><br>
+		<li style="color:black">Can manage event handling methods such as hover()</li>
+	</ol>
+	<br>
+	<h3 id="examples" style="color:black">Examples of jQuery </h3>
+	<ol>
+		<li style="color:black">Hiding contents of a website on-click:</li>
+		<blockquote cite = "https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_hide">
+		<img id="contentshidecode" src = "Hidingcontentcode1.PNG"><br>
+		<p style="color:black">The jQuery script above uses the Hide() method to hide the contents on click.</p><br>
+		<img id="contentshideoutput1" src = "Hidingcontentoutput1.PNG">
+		<img id="contentshideoutput2" src = "Hidingcontentoutput2.PNG">
+		<br>
+		<br><br>
+		<li style="color:black"> Removing contents from a website </li><br>
+		<img id="contentsremovecode" src = "Examplecode2.PNG"><br>
+		<p style="color:black">The jQuery script above completely removes certain content when the user clicks.</p><br>
+		<img id="contentsremoveoutput1" src = "Exampleoutput2.PNG">
+		<img id="contentsremoveoutput2" src = "Exampleoutput2b.PNG"><br>
+		<p style="color:black">This is useful for removing items from shopping carts through mobile applications.</p><br><br>
+		
+		<h3 id="yourturn" style="color:black">Practice questions </h3>
+		<p id="question1" style="color:black">Question 1: What is the output of the following code?</p>  
+		<img id="firstquestioncode" src = "firstquestioncode.PNG"> <br>
+		<div id="firstanswer">
+		<img id="firstquestioncodeanswer" src = "firstquestioncodeanswer.PNG">
+		<p id="answerparagraph" style="color:black">Answer: It displays a button that can hide the contents when clicked </p>
+		</div>
+		<button id="showanswer">Show answer</button>
+		<button id="hideanswer">hide answer</button>
+		<br>
+		
+		<p id="question1" style="color:black">Question 2: What is the output of the following code?</p>  
+		<img id="secondquestioncode" src = "secondquestioncode.PNG"> <br>
+		<div id="secondanswer">
+		<h1 id="secondquestioncodeanswerheading" style="color:black"> Heading </h1>
+		<p id="answerparagraph2" style="color:black">Answer: It allows the user to move the image by hovering the mouse over it. Try it! </p>
+		</div>
+		<button id="showanswer2">Show answer</button>
+		<button id="hideanswer2">hide answer</button>
+		<br><br>
+		<h3 id="conclusion" style="color:black"> Conclusion </h3>
+	<p id="lastparagraph" style="color:black">
+	Now you have learned that jQuery allows the user to manipulate simplified commands
+	to create dynamic effects that are used for creating games or messing around with the 
+	content!
+	</p>
+		
+		
+		<h3 id="finalnote" style="color:black"> End Note!! </h3>
+		<p id="finalnotepara" style="color:black">
+		A jQuery is always initiated with $(document).ready(function(){});
+		
+		</blockquote>
+	<ol>
+	
+
+	</div>
+
+	
+	<div id="copyrightTab">
+		@ Mobile Application Summer 2019
+	</div> 
+<script type="text/javascript">
+$(document).ready(function()
+{
+
+	$("#showanswer").click(function()
+	{	
+		$("#firstanswer").show();
+	});
+	$("#hideanswer").click(function()
+	{	
+		$("#firstanswer").hide();
+	});
+});
+
+$(document).ready(function()
+{
+
+	$("#showanswer2").click(function()
+	{	
+		$("#secondanswer").show();
+	});
+	$("#hideanswer2").click(function()
+	{	
+		$("#secondanswer").hide();
+	});
+});
+
+
+$(document).ready(function()
+{
+ $("#secondquestioncodeanswerheading").mouseover(function()
+ {
+  $(this).css("text-align","right"); 
+  });
+  $("#secondquestioncodeanswerheading").mouseout(function()
+  {
+  $(this).css("text-align","left");
+  });
+ });
+
+
+
+</script>
+</body>
+
+</html>
+
