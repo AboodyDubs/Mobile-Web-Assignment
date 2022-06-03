@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head> 
+<title>
+jquery
+</title>
+<script type="text/javascript" src="jquery.js">
+</script>
+<link = href = "Json.css" rel = "stylesheet" type = "text/css">
+
+</head> 
+
+
+<body>
+
+	<div id="menuTab">
+		<img id="titleimg" src = "eye.PNG">
+		<span id="heading1">Mobile Application Development</span>
+		<a id="a1" href="index.html">Home</a>
+		<a id="a2" href="javascript.html">Jscript</a>
+		<a id="a3" href="jquery.html">Jquery</a>
+		<a id="a4" href="">Ajax</a>
+		<a id="a5" href="Json.html">JSON</a>
+		<a id="a6" href="XML.html">XML</a>
+		
+	</div>
+	<ul id="sub">
+		<li><a href="#whatisJson">What is JSON</a></li>
+		<li><a href="#featuresofJson">Features of JSON</a></li>
+		<li><a href="#EvolutionofJson">History of JSON</a></li>
+		<li><a href="#XMLvsJson">JSON vs XML</a></li>
+		<li><a href="#yourturn">Examples</a></li>
+		
+	</ul>
+	
+	
+	<div id="scrollable">
+	
+
+	<img id="imagetitle" src = "jsonmainpic.png">
+	<h3 id="whatisJson">1- What is Json?</h3>
+		<p id="firstpara" class="allparas">Javascript Object Notation is a specific file format that uses simple text
+		that can be read by the ordinary human eye. It can store data through the systematic usage of Javascript statements
+		in an html code. It is important to note that a Json contains a file on its own but relies on being called from an HTML file.
+		thus it must be called from the html file in order to function properly.</p>
+		<br><br>
+		<h3 id="featuresofJson">2- Characteristics of Json:</h3>
+	<ol>
+		<li style="color:black" class="allparas" >Human-readable format: can be understood by humans (data is not in a binary format)</li><br>
+		<li style="color:black" class="allparas">Compatible with HTML: can be used with operations created through HTML tags</li><br>
+		<li style="color:black" class="allparas">Javascript-compatible: can be made interactive through specific statements written in the script block</li><br>
+		<li style="color:black" class="allparas">Size: it is genrally a small sized file that adds up to a couple of megabytes in total.</li><br>
+		<li style="color:black" class="allparas">Independent: does not completely rely on other languages such as html to work</li>
+		
+	</ol>
+	
+	<h3 id="EvolutionofJson">3- History of Json</h3>
+	<img id="sgmlpicture" src = "Douglas_Crockford.jpg">
+	<p id="secondpara" class="allparas">JSON existed since the early 1990s. However, it was not paid much attention to at the time. A computer
+		programmer who goes by the name Douglas Crockford was the first person to explain how to use the JSON format in 2001. He was credited as the 
+		person who defined what JSON was. Thus the name was given by him as he understood that it was transporting javascript data.<br><br>
+		
+		
+		<p id="textindenting">	JSON was at first understood to be the correct format in delivering javascript objects<br> into web browsers, whereas we have different 
+		understanding of it now because it transports <br>the format with any language not just javascript.</p>
+		
+
+
+	<p id="figure1talks"><br><br><b> Figure 1:</b>Douglas explaining his understanding of JSON format</p>
+	<h4 id="soSimple"> The simple way to store data using JSON: </h4> <br>
+		<img id="simpleMethod" src = "AbdallahMyname.PNG"><br><br><br><br>
+		
+		<p class="allparas"> The code above simply creates the data: something that has an ID, and a name.(ID:212312, name: Abdallah).<br>
+		<br>
+		The simple step to call the JSON file from the HTML can be done through the following:
+		<br>
+		<img id="simpleMethod" src = "simpleanswer.PNG">
+		<br><br><br><br>
+		XML http request object simply checks for data from the webserver. If it finds the defined JSON data, it must display it.<br>
+		But it must be completed with an IF statement:
+		<br>
+		
+		<img id="simpleMethod" src = "secondstepneccessary.PNG">
+		<br>
+		</p>
+<br>
+<br>
+	<h4 id="soSimple"> Arrays in JSON: </h4> 
+	<p class="allparas"> Arrays require the use of [] square brackets to store array values: </p>
+	<img id="simpleMethod1" src = "JSONarray.PNG">
+	<br>
+	<br><br><br><br>
+	<p class="allparas">In addition, JSON does support nested arrays that include [] braces inside the array statement:</p><br>
+	<img id="simpleMethod12" src = "nestedArrays.PNG">
+	
+	</p><br><br><br><br><br><br>
+	
+	<h3 id="XMLvsJson">4- Comparing JSON with XML</h3>
+	<img id="sgmlpicture4" src = "JSON-vs-XML.png"> <br>
+	
+	<p class="allparas">There are multiple differences between Json and XML: </p>
+		<br>
+		<ol>
+		<li style="color:black">Array: Json can function with arrays, where as XML cannot.</li><br>
+		<li style="color:black">Readibility and comprehension: XML is less understandable than JSON.</li><br>
+		<li style="color:black">Datatype compatibility: JSON cannot contain datatypes such as images or videos or audio.</li><br>
+		<li style="color:black">JSON is not defined as a language, unlike XML.</li>
+	</ol>
+	<br>
+	
+	<p> -<b> Difference in terms of coding:</b> </p>
+	
+	<p class="allparas"> One must consider the XML's structure based on the Company tree from the XML tab:</p><br>
+	
+	<img id="treepicbased" src = "xmltree.jpg">
+	<img id="treepic" src = "xmlForTree.PNG">
+	
+	<br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<p class="allparas"> Storing the data according to the tree would require nesting in JSON: </p>
+	<br>
+	<img id="treepicbased1" src = "Jsontree.PNG">
+	<br><br>
+	
+	<p class="allparas"> <b> Another method of calling JSON from HTML's javascript: </b> </p><br>
+	<img id="treepicbased2" src = "toParse.PNG"><br><br>
+	<br><br><br>
+	<p class="allparas"> the Parse method in this case transforms the JSON data into 
+		Javascript form. Instead of creating a variable for the JSON. we can take the entire JSON statement </br>
+		and replace "jsonConvert" with it.</p> <br>
+	<img id="treepicbased1" src = "parseatonce.PNG">
+	<br><br><br>
+	<h3 id="ExamplesFor">Examples</h3>
+	<h4 style="color:black"> Program 1: </h4>
+	<p class="allparas"> The following program declares the variable XML. Calls the methods Open and Send. </br>
+	It specifies the request by using the Open method, then it sends the request to the server via the send() command.</br>
+	The GET command recieves the data from the employee.JSON file.
+	</p>
+	<img id="treepicbased1" src = "input1.jpeg"><br><br><br><br><br>
+	
+	<p class="allparas"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+	<b>Output analysis</b>: the server did not detect an "Anndy" as it was written in line 10 of the code.</p><br>
+	
+	<img id="treepicbased3" src = "Output1.jpeg">
+	<br><br><br>
+	<img id="treepicbased4" src = "NoAndy.PNG">
+	<br><br><br>
+	
+	<h4 style="color:black"> Program 2:  </h4>
+	
+
+	
+	<img id="flowerbased1" src = "input2.jpeg"><br><br><br><br><br><br><br>
+	<p class="allparas"> <br><br><br><br><br><br><br><br><br><b>Output analysis:</b> the second code removes the condition of data[i].name = "Anndy". </b>
+	As a result, it searches for the data of all available individuals in the JSON file.: </p><br>
+	<img id="flowerbased2" src = "Output2.jpeg"> <br><br><br><br><br>
+	<br><br><br><br><br>
+	<h4 style="color:black"> Program 3:  </h4>
+	<p class="allparas"> The last program asks the user to choose a certain search category.<br>
+	<br>
+	It contains a condition that if the text(input entered by the user) equals one of the three categories:
+	
+	<li style="color:black">
+		<ol>1- Email </ol>
+		<ol>2- Skill </ol>
+		<ol>3- Name </ol>
+		
+	</li>
+	
+	</p>
+	<br><br><br>
+	
+	<p class="allparas"> Check by email:</p>
+	<img id="flowerbased3" src = "lastCode.jpeg">
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	
+	<p class="allparas"> Check by name:</p>
+	<img id="flowerbased4" src = "secondlastcode.jpeg">
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	
+	<p class="allparas"> Check by skill:</p>
+	<img id="flowerbased4" src = "thirdlastcode.jpeg">
+	
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<p class="allparas"> The output:</p>
+	<img id="flowerbased4" src = "doslastcode.jpeg">
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	
+	<img id="flowerbased4" src = "FinalLast.jpeg">
+	
+	</div>
+
+	<div id="copyrightTab">
+		@ Mobile Application Summer 2019
+	</div> 
+	
+<script type="text/javascript">
+[
+{"id":"Emp_101","name":"Andy","doj":{"day":20,"month":5,"year":2010}},
+{"id":"Emp_102","name":"Alison","doj":{"day":23,"month":4,"year":2009}}
+]
+
+</script>
+</body>
+
+</html>
