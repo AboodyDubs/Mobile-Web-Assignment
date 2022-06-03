@@ -1,0 +1,430 @@
+body{
+	background-image : url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR_QqyOnX3Qd0UlC2yXdHZbaHWRs0BAfc_dSmU3J_F44xlGpb4Ow");
+	margin: 0;
+}
+
+#menuTab {
+	position: fixed;
+	display: inline;
+	width: 100%;
+	top: 0;
+	left: 0;
+	bottom: 73%;
+	
+}
+#featuresofJson{
+color:black;
+
+}
+
+#ExamplesFor{
+	color:black;
+}
+
+
+#treestruc{
+	margin-left: 300px;
+	
+}
+
+
+
+
+
+#sgmlpicture2{
+	
+	width:200px;
+	margin-left:100px;
+}
+
+
+#sgmlpicture3{
+	width:550px;
+	margin-left: 250px;
+}
+
+#EvolutionofJson{
+	color:black;
+}
+
+#sgmlpicture{
+	float: right;
+	margin: 10px;
+	border-radius: 5px;
+	width: 200px;
+}
+
+#sgmlpicture{
+	align:center;
+}
+
+
+#contentshideoutput1{
+	width:200px;
+}
+#contentshideoutput2{
+	width:200px;
+}
+
+
+
+#yourturn{
+color:black	
+}
+#secondquestioncode{
+	width:450px;
+	height:350px;
+}
+
+#soSimple{
+	color:black;
+}
+#simpleMethod{
+	float: left;
+	margin: 10px;
+	border-radius: 5px;
+	width: 400px;
+
+}
+
+#simpleMethod1{
+	float: left;
+	margin: 10px;
+	border-radius: 5px;
+	width: 600px;
+
+}
+
+#simpleMethod12{
+	float: left;
+	margin: 10px;
+	border-radius: 5px;
+	width: 900px;
+
+}
+
+#treepicbased{
+	float: left;
+	margin: 10px;
+	border-radius: 5px;
+	width: 550px;
+}
+
+#treepicbased1{
+	float: left;
+	margin: 10px;
+	border-radius: 5px;
+	width: 700px;
+	
+}
+
+#treepicbased2{
+	float: left;
+	margin: 10px;
+	border-radius: 5px;
+	width: 460px;
+	
+}
+
+#treepicbased3{
+	float: left;
+	margin: 10px;
+	border-radius: 5px;
+	width: 300px;
+	
+}
+
+
+#treepicbased4{
+	float: left;
+	margin: 10px;
+	border-radius: 5px;
+	width: 500px;
+	
+}
+
+#flowerbased1{
+float: left;
+	margin: 10px;
+	border-radius: 5px;
+	width: 500px;
+
+}
+
+#flowerbased2{
+float: left;
+	margin: 10px;
+	border-radius: 5px;
+	width: 300px;
+
+}
+
+#flowerbased3{
+float: left;
+	margin: 10px;
+	border-radius: 5px;
+	width: 450px;
+
+}
+
+#flowerbased4{
+float: left;
+	margin: 10px;
+	border-radius: 5px;
+	width: 450px;
+
+}
+
+
+
+
+
+
+
+
+
+#companytree{
+	position:relative;
+	left:150px;
+}
+
+#companytree{
+	position:relative;
+	left:150px;
+}
+
+#companytreeXML{
+	float:right
+}
+
+
+#treepic{
+	float: right;
+	margin: 10px;
+	border-radius: 5px;
+	width: 400px;
+}
+
+
+
+#secondpara{
+	text-indent:2.0em;
+}
+
+#figure1talks{
+	margin-left:910px;
+}
+
+
+#firstpara{
+text-indent:2.0em
+}
+#whatisJson{
+color:black;
+}
+
+#textindenting{
+	text-indent:2.0em;
+	color:black;
+}
+
+#XMLvsJson{
+	color:black;
+}
+
+#xmlsyntax{
+	width:500px;
+}
+
+
+#indentthat{
+	text-indent:2.0em;
+}
+#imagetitle {
+	float: right;
+	margin: 10px;
+	border-radius: 5px;
+	width: 400px;
+}
+
+#sgmlpicture4{
+
+	float: right;
+	margin: 10px;
+	border-radius: 5px;
+	width: 200px;
+}
+
+
+
+
+
+#titleimg {
+	float: left;
+	margin: 10px;
+	border-radius: 5px;
+	width: 250px;
+}
+
+
+
+
+
+#heading1 {
+	position: fixed;
+    right: 15%;
+	top: 5%;
+	background-color: red;
+	width: 600px;
+	font-size: 40px;
+	font-weight: bold;
+	color: Yellow;
+}
+
+#menuTab a {
+	background-color: yellow;
+}
+
+#a1 {
+	position: fixed;
+	width: 100px;
+	height: 40px;
+	top: 15%;
+	right: 55%;
+	text-decoration: none;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 5px;
+	border: 5px solid black;
+}
+
+#a2 {
+	position: fixed;
+	width: 100px;
+	height: 40px;
+	top: 15%;
+	right: 45%;
+	text-decoration: none;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 5px;
+	border: 5px solid black;
+}
+
+#a3 {
+	position: fixed;
+	width: 100px;
+	height: 40px;
+	top: 15%;
+	right: 35%;
+	text-decoration: none;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 5px;
+	border: 5px solid black;
+}
+
+#a4 {
+	position: fixed;
+	width: 100px;
+	height: 40px;
+	top: 15%;
+	right: 25%;
+	text-decoration: none;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 5px;
+	border: 5px solid black;
+}
+
+#a5 {
+	position: fixed;
+	width: 100px;
+	height: 40px;
+	top: 15%;
+	right: 15%;
+	text-decoration: none;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 5px;
+	border: 5px solid black;
+}
+
+
+#a6 {
+	position: fixed;
+	width: 100px;
+	height: 40px;
+	top: 15%;
+	right: 5%;
+	text-decoration: none;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 5px;
+	border: 5px solid black;
+}
+
+#menuTab a:hover {
+	color: black;
+	background-color: cyan;
+}
+
+.allparas{
+	width: 60%;
+}
+
+#XSLpic{
+	width:150px;
+}
+
+#scrollable{
+	background-color:white;
+	color: pink;
+	position: fixed;
+	top: 27%;
+	right: 0;
+	width: 78%;
+	height: 66%;
+	overflow: auto;
+	font-size: 20px;
+	padding: 10px;
+	display:inline;
+	}
+
+p	{
+	color: black;
+}
+
+ul {
+	background-color:indigo ;
+	position: fixed;
+	top: 27%;
+	list-style-type: none;
+	margin: 0;
+	font-size: 20px;
+	padding: 0 0 30px 0;
+	width: 22%;
+}
+
+li a {
+	color: pink;
+	display: block;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+li a:hover {
+	background-color: cyan;
+	color: brown;
+}
+
+#copyrightTab{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	top: 96%;
+	width: 100%;
+	background-color: green;
+	font-size: 20px;
+	text-align: center;
+}
