@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head> 
+<title>
+jquery
+</title>
+<script type="text/javascript" src="jquery.js">
+</script>
+<link = href = "XML.css" rel = "stylesheet" type = "text/css">
+
+</head> 
+
+
+<body>
+
+	<div id="menuTab">
+		<img id="titleimg" src = "eye.PNG">
+		<span id="heading1">Mobile Application Development</span>
+		<a id="a1" href="index.html">Home</a>
+		<a id="a2" href="javascript.html">Jscript</a>
+		<a id="a3" href="jquery.html">Jquery</a>
+		<a id="a4" href="">Ajax</a>
+		<a id="a5" href="Json.html">JSON</a>
+		<a id="a6" href="XML.html">XML</a>
+		
+	</div>
+	<ul id="sub">
+		<li><a href="#whatisXML">What is XML</a></li>
+		<li><a href="#featuresofXML">Features of XML</a></li>
+		<li><a href="#EvolutionofXML">Evolution of XML</a></li>
+		<li><a href="#XMLvsHTML">XML vs HTML</a></li>
+		<li><a href="#yourturn">Practice</a></li>
+		
+	</ul>
+	
+	
+	<div id="scrollable">
+	
+
+	<img id="imagetitle" src = "xmlpicture.png">
+	<h3 id="whatisXML">1- What is XML?</h3>
+		<p id="firstpara" class="allparas">XML or Extensible Markup Language is language that organizes specific
+		data so that both the user and the machine can be able to read it. It allows the user to 
+		create their own tags rather than be limited to using pre-defined html tags.</p>
+		<br><br>
+		<h3 id="featuresofXML">2- Features of XML:</h3>
+	<ol>
+		<li style="color:black" class="allparas" >Validation: can be validated using the XML schema to check for errors</li><br>
+		<li style="color:black" class="allparas">Compatible with HTML: can be used with operations created through HTML tags</li><br>
+		<li style="color:black" class="allparas">Javascript-compatible: can be made interactive through specific statements written in the script block</li><br>
+		<li style="color:black" class="allparas">Storage efficiency: good for storing document</li><br>
+		<li style="color:black" class="allparas">Extensible: it has extended naming for tags in the sense of allowing users create their own tags</li>
+		
+	</ol>
+	
+	<h3 id="EvolutionofXML">3- Evolution of XML</h3>
+	
+	<p id="secondpara" class="allparas">XML is a derived language of the SGML as seen in <b> Figure 1 </b>, which stands for Standard Generalized Markup Language.
+	SGML was renowned in its time for containing HTML in it. However, it was modified by having its redundant features trimmed. <br>
+	<br>
+	<img id="sgmlpicture" src = "sgmlconv.png"><br><br>
+	<p id="figure1talks"> <br><br><br><br><br><br><br><b> Figure 1:</b> We may observe that SGML is the parent of<br> most markup languages that 
+	are used to this day,<br> including HTML, XML along with Xquery, even<br> PDF documents.</p>
+	<p class="allparas">Then the XML version 1.0 was introduced:</p>
+	<img id="sgmlpicture2" src = "xmlonepointzero.png">
+	<br>
+	<p class="allparas">
+	The second enhancement was adding Namespaces into the XML. Nameespaces are meant to uniquely provide 
+	named elements and attributes in an XML format. <br><br> </p>
+	<p>The following is an example of an XML Namespace syntax:</p><br><br>
+	<img id="sgmlpicture3" src = "namespaces.png"> <br><br>
+	<blockquote cite = "https://docstore.mik.ua/orelly/xml/xmlnut/ch01_04.htm">
+	<p class="allparas" id="indentthat">
+	The third modification was the creation of XSL (Extensible Stylesheet Language). It specializes
+	in converting specific XML documents into new XML documents. XSL's main purpose is to describe how XML should be displayed
+	It functions similar to that of the CSS. <br> <br> </p>
+	</blockquote>
+	<img id="XSLpic" src = "xslpicture.jpg"> 
+	
+	
+	
+	<p class="allparas" >Programmers are aiming to improve XML query in the future, which is a language that extracts information that meets criteria from one or more<br>
+	XML documents.<br>
+	<br>
+	XML Query or Xquery functions the same way an SQL does to a database. Xquery uses statements such as "WHERE" to create conditions while 
+	searching for specific data.
+	
+	</p><br><br>
+	
+	<h3 id="XMLvsHTML">4- Comparing HTML with XML</h3>
+	<img id="sgmlpicture4" src = "XMLvsHTML.png"> <br>
+	
+	<p class="allparas">	An XML block of code may be used within an HTML document.
+		However, the two languages differ in certain areas: </p>
+		<br>
+		<ol>
+		<li style="color:black">HTML does not preserve white space</li><br>
+		<li style="color:black">HTML forces the user to use pre-defined tags, whereas XML allows the user to create their own tags</li><br>
+		<li style="color:black">XML is a dynamic language that carries the information, whereas HTML is static that only displays the data</li><br>
+		<li style="color:black">XML is case sensitive, whereas HTML is not</li>
+	</ol>
+	<br>
+	
+	<p> -<b> Difference in terms of coding:</b> </p>
+	
+	<p><b> HTML syntax: </b> </p>
+		<img id="htmlsyntax" src = "htmlsyntax.PNG"><br><br>
+	<p><b> XML syntax:</b> </p> 
+		<img id="xmlsyntax" src = "xmlsyntax.PNG"> 
+		<br><br>
+		
+		<p class="allparas"><b> Analysis: </b><br>
+		
+		HTML encloses elements with tags, where as XML would create a tree-like structure.
+		An example would be the company tree XML structure:</p><br>
+		<img id="treestruc" src = "xmltree.jpg"><br>
+		<br><br>
+		<p>The XML format for the tree structure:</p> <br>
+		<img id="treestructure" src = "xmlForTree.PNG"><br> <br>
+		
+		<h3 id="yourturn" style="font-size:30px">5 - Practice Question:</h3>
+		<button onclick="readXML()">Show answer</button><br/>
+		<h2 style="color:black; font-size:25px">What is the output based on the code below?</h2> <br>
+		<img id="codar1" src = "codar1.PNG"><br>
+		<img id="codar2" src = "codar2.PNG">
+		
+		<xml id="myCompany" style="display:none">
+	<company>
+	    <employee>
+		   <name>
+		    <first>James</first>
+			<last>Franklin</last>
+		   </name>
+		   <department>Science</department>
+		   <datez>2015</datez>
+		</employee>
+	</company>
+	</xml>
+		
+		
+		</blockquote>
+	<ol>
+	
+	
+	
+	
+	</div>
+
+	
+	<div id="copyrightTab">
+		@ Mobile Application Summer 2019
+	</div> 
+	
+	
+<script type="text/javascript">
+
+
+	 function readXML()
+	 {
+	  
+	  var company=document.getElementById("myCompany");
+	  var emp=company.getElementsByTagName("employee");
+	  var name=emp[0].getElementsByTagName("name");
+	  var first=name[0].getElementsByTagName("first")[0].firstChild.data;
+	  var last=name[0].getElementsByTagName("last")[0].firstChild.data;
+	  document.getElementsByTagName("h2")[0].innerHTML=first+" "+last;
+	  
+	 }
+	
+
+
+</script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
