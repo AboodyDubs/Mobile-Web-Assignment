@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<head> 
+<title>
+javascript
+</title>
+<script type="text/javascript" src="jquery.js"> </script>
+<link = href = "javascript.css" rel = "stylesheet" type = "text/css">
+
+</head> 
+
+
+<body>
+
+	<div id="menuTab">
+		<img id="titleimg" src = "eye.PNG">
+		<span id="heading1">Mobile Application Development</span>
+		<a id="a1" href="index.html">Home</a>
+		<a id="a2" href="javascript.html">Jscript</a>
+		<a id="a3" href="jquery.html">Jquery</a>
+		<a id="a4" href="">Ajax</a>
+		<a id="a5" href="Json.html">JSON</a>
+		<a id="a6" href="XML.html">XML</a>
+		
+	</div>
+	<ul id="sub">
+		<li><a href="#whatisjscript">What is Javascript</a></li>
+		<li><a href="#featuresjscript">Features of Javascript</a></li>
+		<li><a href="#javascriptobject">Javascript Objects </a></li>
+		<li><a href="#itsuses">Uses of Javascript</a></li>
+		<li><a href="#limitationsofjavascript">Limitations of Javascript</a></li>
+		<li><a href="#ExamplesofJavascript">Examples of Javascript</a></li>
+	</ul>
+	
+	
+	<div id="scrollable">
+	<img id="imagetitle" src = "javascript-e1477353149155.png">
+	<h3 id="whatisjscript" style="color:black">What is Javascript?</h3><br>
+	<p style="color:black">A high level Object Oriented Language that allows websites to become interact able with the user. 
+	It contains specific interfaces that are able to work with the Document Object Model (DOM), arrays along with the Regular Expression sequences.</p><br><br>
+	<h3 id="featuresjscript" style="color:black">Features of Javascript</h3><br>
+	<p style="color:black"> 1- Case sensitive<br>
+	2- Light weighted language due to its limitation of syntax<br>
+	3- It is always embedded within websites.<br>
+	4- Provides the user with opportunities to interact with websites.<br>
+	5- Can create specific functions that accomplish unique tasks<br><br>
+	</p>
+	<blockquote cite = "https://www.w3schools.com/js/js_objects.asp">
+	<h3 id="javascriptobject" style="color:black">What is a Javascript Object? </h3>
+	<p style="color:black"> A javascript object is an entity that has properties. These properties are neccessary
+	to define unique instances of objects. In the upcoming example, we will be examining
+	a car as an object.</p>
+	<br>
+	<img id="imagetitle" src = "12224_st1280_089.png">
+	<p style="color:black"> The following code simply creates an object: </p>
+	<img id="createobject" src = "Createobject.PNG">
+	<img id="createobjectoutput" src ="Createobjectoutput.PNG">
+	<br> 
+	<p style="color:black">we must keep in mind that each object has properties. A car has a type, and the type of
+	Dodge in the picture displayed is Charger, therefore, we must initialize and declare the type
+	to "Charger": </p><br>
+	<br>
+	<img id="createobjectproperty" src ="Createobjectproperty.PNG">
+	<img id="createobjectoutputproperty" src ="Createobjectoutputproperty.PNG">
+	<br>
+	<p style="color:black"> Thus we successfully created an instance of an object. We have defined the object's 
+	characterisics through the "Dodge" class, then we created an instance of that Dodge class and 
+	called it Charger. <br>
+	This is similar to having a Student object who goes by the name "John Doe".</p>
+	</blockquote>
+	<br><br><br>
+	<h3 id="itsuses" style="color:black">Javascript uses:<br></h3>
+	<p style="color:black">1- It can be used for validation (account validation)<br>
+	2- Creates forms that ask for user’s input<br>
+	3- Creates web applications<br>
+	4- Creates a dynamic environment for websites.<br>
+	5- Can be used to create applications that do not require an internet for them to be used.</p><br><br>
+	<h3 id="limitationsofjavascript" style="color:black">Limitations of Javascript:</h3>
+	<p style="color:black">1- Vulnerable security system: because it is used in web-servers, they are prone to foreign cyber attacks.<br>
+	2- Relies on the type of browser: a javascript program behaves differently based on the type of browser it runs on.<br>
+	</p><br>
+	<h3 id="ExamplesofJavascript" style="color:black">Examples of Javascript</h3>
+	<ol>
+		<li style="color:black"> Using for-loop: Javascript can be used to count loops and print an array.</li>
+		<img id="forloopcode" src = "javascriptforloopcode.PNG">
+		<div id="forloopoutput">
+		<img id="forloopcodeoutput" src = "javascriptforloopoutput.PNG">
+		</div><br>
+		<button id="displayanswer">display output</button>
+		<button id="hideanswer">hide output</button><br><br>
+		
+		<li style="color:black">Can be used to reset forms</li>
+		<img id="resetformscode" src = "resetformscode.PNG">
+		<div id="resetforms">
+		<blockquote cite = "https://www.w3schools.com/js/tryit.asp?filename=tryjs_form_reset">
+		<p style="color:black">Enter names in the fields below, then click "Reset" to reset the form.</p>
+
+		<form id="frm1" style="color:black">
+		First name: <input type="text" name="fname" ><br>
+		Last name: <input type="text" name="lname"><br><br>
+		<input type="button" onclick="myFunction()" value="Reset">
+		</form>
+		
+		</blockquote>
+		</div><br>
+		<button id="displayanswer2">display form</button>
+		<button id="hideanswer2">hide form</button>
+		<br>
+		
+		<h3 id="conclusion" style="color:black"> Conclusion </h3>
+		<p id="lastparagraph" style="color:black">
+		Javascript can be used for a variety of functions, from displaying records in the database
+		that are large in numbers, to asking the users for login information. Please proceed to the
+		next tab to understand jQuery and how it is influenced by Javascript.
+	</p>
+	</ol>
+	</div>
+	
+	
+	<div id="copyrightTab">
+		@ Mobile Application Summer 2019
+	</div> 
+
+	<script type = "text/javascript">
+	$(document).ready(function()
+{
+
+	$("#displayanswer").click(function()
+	{	
+		$("#forloopoutput").show();
+	});
+	$("#hideanswer").click(function()
+	{	
+		$("#forloopoutput").hide();
+	});
+});
+$(document).ready(function()
+{
+
+	$("#displayanswer2").click(function()
+	{	
+		$("#resetforms").show();
+	});
+	$("#hideanswer2").click(function()
+	{	
+		$("#resetforms").hide();
+	});
+});
+
+function myFunction() {
+  document.getElementById("frm1").reset();
+}
+	</script>
+</body>
+
+</html>
+
